@@ -1,0 +1,13 @@
+.env
+.venv
+prompts
+scripts
+config
+data
+requirements.txt
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.pytest_cache/
