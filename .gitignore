@@ -11,3 +11,6 @@ __pycache__/
 *.pyd
 .DS_Store
 .pytest_cache/
+logs/
+.runlocks/
+ops/

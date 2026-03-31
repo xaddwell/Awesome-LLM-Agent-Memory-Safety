@@ -5,7 +5,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Last Commit](https://img.shields.io/github/last-commit/xaddwell/Awesome-LLM-Agent-Memory-Safety?style=flat&color=blue)](https://github.com/xaddwell/Awesome-LLM-Agent-Memory-Safety)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-red)](https://github.com/xaddwell/Awesome-LLM-Agent-Memory-Safety/pulls)
-[![Papers](https://img.shields.io/badge/Papers-747-blue.svg)](#tracked-papers)
+[![Papers](https://img.shields.io/badge/Papers-748-blue.svg)](#tracked-papers)
 [![Accepted](https://img.shields.io/badge/Accepted-107-green.svg)](#tracked-papers)
 [![Maintenance](https://img.shields.io/badge/Daily%20Update-enabled-brightgreen.svg)](.github/workflows/daily-arxiv-update.yml)
 
@@ -24,7 +24,7 @@ This repository follows the survey framework developed for LLM agent memory safe
 ## Snapshot
 
 - Last update: `2026-03-31`
-- Total tracked papers: `747`
+- Total tracked papers: `748`
 - Papers with accepted/published signal: `107`
 
 ### Section Counts
@@ -37,7 +37,7 @@ This repository follows the survey framework developed for LLM agent memory safe
 | Threat Landscape | 200 |
 | Threat Models | 0 |
 | Defenses and Governance | 0 |
-| Evaluation and Benchmarks | 368 |
+| Evaluation and Benchmarks | 369 |
 | Future and Societal Impact | 2 |
 
 ## Latest Digest
@@ -664,7 +664,7 @@ Mitigations for memory writing, retrieval, update, deletion, and system-level co
 </details>
 
 <details open>
-<summary><b>Evaluation and Benchmarks</b> (368 papers)</summary>
+<summary><b>Evaluation and Benchmarks</b> (369 papers)</summary>
 
 Benchmarks and metrics for memory capability and memory safety.
 
@@ -676,8 +676,9 @@ Benchmarks and metrics for memory capability and memory safety.
 </details>
 
 <details>
-<summary>Long-Term Memory Evaluation (368)</summary>
+<summary>Long-Term Memory Evaluation (369)</summary>
 
+- **2026-03-30** [arXiv ID: 2603.28088] [GEMS: Agent-Native Multimodal Generation with Memory and Skills](http://arxiv.org/abs/2603.28088v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span> [Code](https://gems-gen.github.io)
 - **2026-03-27** [arXiv ID: 2603.26100] [Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems](http://arxiv.org/abs/2603.26100v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="evaluation" src="https://img.shields.io/badge/evaluation-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-26** [arXiv ID: 2603.25157] [Vision Hopfield Memory Networks](http://arxiv.org/abs/2603.25157v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-26** [arXiv ID: 2603.25111] [SEVerA: Verified Synthesis of Self-Evolving Agents](http://arxiv.org/abs/2603.25111v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="safe" src="https://img.shields.io/badge/safe-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
@@ -757,7 +758,6 @@ Benchmarks and metrics for memory capability and memory safety.
 - **2026-03-09** [arXiv ID: 2603.08086] [From Reactive to Map-Based AI: Tuned Local LLMs for Semantic Zone Inference in Object-Goal Navigation](http://arxiv.org/abs/2603.08086v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-09** [arXiv ID: 2603.08013] [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](http://arxiv.org/abs/2603.08013v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-09** [arXiv ID: 2603.07997] [CMMR-VLN: Vision-and-Language Navigation via Continual Multimodal Memory Retrieval](http://arxiv.org/abs/2603.07997v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
-- **2026-03-08** [arXiv ID: 2603.15658] [Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents](http://arxiv.org/abs/2603.15658v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 
 </details>
 
