@@ -1,5 +1,3 @@
-# Latest Digest (2026-03-31)
+# Latest Digest
 
-## Evaluation and Benchmarks
-
-- [GEMS: Agent-Native Multimodal Generation with Memory and Skills](http://arxiv.org/abs/2603.28088v1) | Long-Term Memory Evaluation | arXiv | 2026-03-30
+No new papers were added on 2026-03-31.
