@@ -9,7 +9,7 @@
 [![Accepted](https://img.shields.io/badge/Accepted-107-green.svg)](#tracked-papers)
 [![Maintenance](https://img.shields.io/badge/Daily%20Update-enabled-brightgreen.svg)](.github/workflows/daily-arxiv-update.yml)
 
-**Papers on LLM/Agent memory, safety, governance, evaluation, and societal impact.**
+**Papers on safety, governance, evaluation, and societal impact of LLM/Agent memory.**
 
 </div>
 
