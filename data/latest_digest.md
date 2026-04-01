@@ -1,3 +1,3 @@
 # Latest Digest
 
-No new papers were added on 2026-03-31.
+No new papers were added on 2026-04-01.

@@ -1,4 +1,4 @@
-# Latest Query (2026-03-31)
+# Latest Query (2026-04-01)
 
 - Window (days): `1`
 - Max results: `100`
