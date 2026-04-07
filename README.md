@@ -5,7 +5,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Last Commit](https://img.shields.io/github/last-commit/xaddwell/Awesome-LLM-Agent-Memory-Safety?style=flat&color=blue)](https://github.com/xaddwell/Awesome-LLM-Agent-Memory-Safety)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-red)](https://github.com/xaddwell/Awesome-LLM-Agent-Memory-Safety/pulls)
-[![Papers](https://img.shields.io/badge/Papers-750-blue.svg)](#tracked-papers)
+[![Papers](https://img.shields.io/badge/Papers-755-blue.svg)](#tracked-papers)
 [![Accepted](https://img.shields.io/badge/Accepted-107-green.svg)](#tracked-papers)
 [![Maintenance](https://img.shields.io/badge/Daily%20Update-enabled-brightgreen.svg)](.github/workflows/daily-arxiv-update.yml)
 
@@ -24,7 +24,7 @@ This repository follows the survey framework developed for LLM agent memory safe
 ## Snapshot
 
 - Last update: `2026-04-07`
-- Total tracked papers: `750`
+- Total tracked papers: `755`
 - Papers with accepted/published signal: `107`
 
 ### Section Counts
@@ -32,12 +32,12 @@ This repository follows the survey framework developed for LLM agent memory safe
 | Section | Papers |
 | --- | ---: |
 | Surveys and Positioning | 0 |
-| Memory Forms | 134 |
+| Memory Forms | 135 |
 | Lifecycle and Governance | 43 |
-| Threat Landscape | 201 |
+| Threat Landscape | 204 |
 | Threat Models | 0 |
 | Defenses and Governance | 0 |
-| Evaluation and Benchmarks | 370 |
+| Evaluation and Benchmarks | 371 |
 | Future and Societal Impact | 2 |
 
 ## Latest Digest
@@ -82,7 +82,7 @@ Survey, synthesis, and perspective papers that define the scope, vocabulary, and
 </details>
 
 <details open>
-<summary><b>Memory Forms</b> (134 papers)</summary>
+<summary><b>Memory Forms</b> (135 papers)</summary>
 
 How memory is represented, stored, and shared inside LLM agent systems.
 
@@ -108,8 +108,9 @@ How memory is represented, stored, and shared inside LLM agent systems.
 </details>
 
 <details>
-<summary>External Retrieved Memory (116)</summary>
+<summary>External Retrieved Memory (117)</summary>
 
+- **2026-04-06** [arXiv ID: 2604.04707] [OpenWorldLib: A Unified Codebase and Definition of Advanced World Models](http://arxiv.org/abs/2604.04707v1) <a href="https://github.com/OpenDCAI/OpenWorldLib"><span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="GitHub stars" src="https://img.shields.io/github/stars/OpenDCAI/OpenWorldLib?style=social" height="18" style="vertical-align:middle;"></span></a> <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-27** [arXiv ID: 2603.26085] [AgenticRS-Architecture: System Design for Agentic Recommender Systems](http://arxiv.org/abs/2603.26085v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-24** [arXiv ID: 2603.23571] [StateLinFormer: Stateful Training Enhancing Long-term Memory in Navigation](http://arxiv.org/abs/2603.23571v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-23** [arXiv ID: 2603.21658] [A Comparative Analysis of LLM Memorization at Statistical and Internal Levels: Cross-Model Commonalities and Model-Specific Signatures](http://arxiv.org/abs/2603.21658v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="access" src="https://img.shields.io/badge/access-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
@@ -189,7 +190,6 @@ How memory is represented, stored, and shared inside LLM agent systems.
 - **2025-01-01** [arXiv ID: 2508.07407] [A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems](https://arxiv.org/abs/2508.07407) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2024-12-12** [arXiv ID: 2412.09764] [Memory Layers at Scale](https://arxiv.org/abs/2412.09764) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2024-11-01** [arXiv ID: 2411.00489] [Human-inspired Perspectives: A Survey on AI Long-term Memory](http://arxiv.org/abs/2411.00489v2) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
-- **2024-10-10** [arXiv ID: 2410.08328] [Agents Thinking Fast and Slow: A Talker-Reasoner Architecture](https://arxiv.org/abs/2410.08328) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="retrieval" src="https://img.shields.io/badge/retrieval-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 
 </details>
 
@@ -329,7 +329,7 @@ How memory is written, stored, retrieved, updated, forgotten, and coupled to act
 </details>
 
 <details open>
-<summary><b>Threat Landscape</b> (201 papers)</summary>
+<summary><b>Threat Landscape</b> (204 papers)</summary>
 
 What kinds of safety failures arise once memory becomes persistent and action-coupled.
 
@@ -341,8 +341,10 @@ What kinds of safety failures arise once memory becomes persistent and action-co
 </details>
 
 <details>
-<summary>Privacy and Confidentiality (90)</summary>
+<summary>Privacy and Confidentiality (92)</summary>
 
+- **2026-04-06** [arXiv ID: 2604.04901] [FileGram: Grounding Agent Personalization in File-System Behavioral Traces](http://arxiv.org/abs/2604.04901v1) <a href="https://github.com/synvo-ai/FileGram"><span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="GitHub stars" src="https://img.shields.io/github/stars/synvo-ai/FileGram?style=social" height="18" style="vertical-align:middle;"></span></a> <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="privacy" src="https://img.shields.io/badge/privacy-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
+- **2026-04-06** [arXiv ID: 2604.04853] [MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents](http://arxiv.org/abs/2604.04853v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-31** [arXiv ID: 2603.29493] [MemFactory: Unified Inference & Training Framework for Agent Memory](http://arxiv.org/abs/2603.29493v1) <a href="https://github.com/Valsure/MemFactory"><span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Valsure/MemFactory?style=social" height="18" style="vertical-align:middle;"></span></a> <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-24** [arXiv ID: 2603.23231] [PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments](http://arxiv.org/abs/2603.23231v1) <a href="https://github.com/PolarisLiu1/PERMA"><span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="GitHub stars" src="https://img.shields.io/github/stars/PolarisLiu1/PERMA?style=social" height="18" style="vertical-align:middle;"></span></a> <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-23** [arXiv ID: 2603.21564] [Toward a Theory of Hierarchical Memory for Language Agents](http://arxiv.org/abs/2603.21564v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
@@ -421,8 +423,6 @@ What kinds of safety failures arise once memory becomes persistent and action-co
 - **2024-04-02** [arXiv ID: 2404.02062] [Digital Forgetting in Large Language Models: A Survey of Unlearning Methods](https://arxiv.org/abs/2404.02062) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="privacy" src="https://img.shields.io/badge/privacy-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2024-03-18** [arXiv ID: 2403.11901] [Larimar: Large Language Models with Episodic Memory Control](https://arxiv.org/abs/2403.11901) <a href="https://github.com/IBM/larimar"><span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="GitHub stars" src="https://img.shields.io/github/stars/IBM/larimar?style=social" height="18" style="vertical-align:middle;"></span></a> <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2024-03-07** [arXiv ID: 2403.04317] [Online Adaptation of Language Models with a Memory of Amortized Contexts](https://arxiv.org/abs/2403.04317) <a href="https://github.com/jihoontack/MAC"><span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="GitHub stars" src="https://img.shields.io/github/stars/jihoontack/MAC?style=social" height="18" style="vertical-align:middle;"></span></a> <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
-- **2024-03-06** [arXiv ID: 2403.03536] [Towards Efficient and Effective Unlearning of Large Language Models for Recommendation](https://arxiv.org/abs/2403.03536) <a href="https://github.com/justarter/E2URec}"><span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="GitHub stars" src="https://img.shields.io/github/stars/justarter/E2URec}?style=social" height="18" style="vertical-align:middle;"></span></a> <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="privacy" src="https://img.shields.io/badge/privacy-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
-- **2024-02-16** [arXiv ID: 2402.10790] [In Search of Needles in a 11M Haystack: Recurrent Memory Finds What LLMs Miss](https://arxiv.org/abs/2402.10790) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 
 </details>
 
@@ -457,8 +457,9 @@ What kinds of safety failures arise once memory becomes persistent and action-co
 </details>
 
 <details>
-<summary>Temporal Poisoning and Delayed Triggers (87)</summary>
+<summary>Temporal Poisoning and Delayed Triggers (88)</summary>
 
+- **2026-04-06** [arXiv ID: 2604.04514] [SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems](http://arxiv.org/abs/2604.04514v1) <a href="https://github.com/qualixar/superlocalmemory"><span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="GitHub stars" src="https://img.shields.io/github/stars/qualixar/superlocalmemory?style=social" height="18" style="vertical-align:middle;"></span></a> <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-26** [arXiv ID: 2603.25716] [Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models](http://arxiv.org/abs/2603.25716v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-26** [arXiv ID: 2603.25031] [From Stateless to Situated: Building a Psychological World for LLM-Based Emotional Support](http://arxiv.org/abs/2603.25031v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="alignment" src="https://img.shields.io/badge/alignment-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-25** [arXiv ID: 2603.23864] [See, Remember, Explore: A Benchmark and Baselines for Streaming Spatial Reasoning](http://arxiv.org/abs/2603.23864v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span> [Code](https://vfishc.github.io/s3-bench)
@@ -538,7 +539,6 @@ What kinds of safety failures arise once memory becomes persistent and action-co
 - **2025-03-05** [arXiv ID: 2503.03803] [EgoLife: Towards Egocentric Life Assistant](https://arxiv.org/abs/2503.03803) <a href="https://github.com/EvolvingLMMs-Lab/EgoLife"><span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="GitHub stars" src="https://img.shields.io/github/stars/EvolvingLMMs-Lab/EgoLife?style=social" height="18" style="vertical-align:middle;"></span></a> <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="identity" src="https://img.shields.io/badge/identity-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2025-02-22** [arXiv ID: 2502.16090] [Echo: A Large Language Model with Temporal Episodic Memory](https://arxiv.org/abs/2502.16090) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2025-01-21** [arXiv ID: 2501.13121] [Episodic Memories Generation and Evaluation Benchmark for Large Language Models](https://arxiv.org/abs/2501.13121) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
-- **2025-01-20** [arXiv ID: 2501.13956] [Zep: A Temporal Knowledge Graph Architecture for Agent Memory](https://arxiv.org/abs/2501.13956) <a href="https://github.com/getzep/graphiti"><span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="GitHub stars" src="https://img.shields.io/github/stars/getzep/graphiti?style=social" height="18" style="vertical-align:middle;"></span></a> <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 
 </details>
 
@@ -664,7 +664,7 @@ Mitigations for memory writing, retrieval, update, deletion, and system-level co
 </details>
 
 <details open>
-<summary><b>Evaluation and Benchmarks</b> (370 papers)</summary>
+<summary><b>Evaluation and Benchmarks</b> (371 papers)</summary>
 
 Benchmarks and metrics for memory capability and memory safety.
 
@@ -676,8 +676,9 @@ Benchmarks and metrics for memory capability and memory safety.
 </details>
 
 <details>
-<summary>Long-Term Memory Evaluation (370)</summary>
+<summary>Long-Term Memory Evaluation (371)</summary>
 
+- **2026-04-06** [arXiv ID: 2604.04527] [ENCRUST: Encapsulated Substitution and Agentic Refinement on a Live Scaffold for Safe C-to-Rust Translation](http://arxiv.org/abs/2604.04527v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-31** [arXiv ID: 2603.29318] [PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent](http://arxiv.org/abs/2603.29318v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-30** [arXiv ID: 2603.28088] [GEMS: Agent-Native Multimodal Generation with Memory and Skills](http://arxiv.org/abs/2603.28088v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span> [Code](https://gems-gen.github.io)
 - **2026-03-27** [arXiv ID: 2603.26100] [Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems](http://arxiv.org/abs/2603.26100v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="evaluation" src="https://img.shields.io/badge/evaluation-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
@@ -757,7 +758,6 @@ Benchmarks and metrics for memory capability and memory safety.
 - **2026-03-09** [arXiv ID: 2603.08533] [SecAgent: Efficient Mobile GUI Agent with Semantic Context](http://arxiv.org/abs/2603.08533v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="evaluation" src="https://img.shields.io/badge/evaluation-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-09** [arXiv ID: 2603.08429] [One Model Is Enough: Native Retrieval Embeddings from LLM Agent Hidden States](http://arxiv.org/abs/2603.08429v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="alignment" src="https://img.shields.io/badge/alignment-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 - **2026-03-09** [arXiv ID: 2603.08086] [From Reactive to Map-Based AI: Tuned Local LLMs for Semantic Zone Inference in Object-Goal Navigation](http://arxiv.org/abs/2603.08086v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
-- **2026-03-09** [arXiv ID: 2603.08013] [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](http://arxiv.org/abs/2603.08013v1) <span style="vertical-align:middle; display:inline-block; position:relative; top:-1px;"><img alt="memory" src="https://img.shields.io/badge/memory-10b981?style=flat" height="18" style="vertical-align:middle;"></span>
 
 </details>
 
